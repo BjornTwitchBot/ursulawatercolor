@@ -1,0 +1,21 @@
+language: go
+go:
+- 1.6.0
+script:
+- go get github.com/spf13/hugo
+- hugo
+deploy:
+    provider: s3
+    access_key_id: $AWS_ACCESS_KEY # Declared in travis build settings
+    secret_access_key: $AWS_SECRET_KEY # Declared in travis build settings
+    bucket: ursulawatercolor.com
+    skip_cleanup: true
+    region: "us-east-1"
+    local_dir: public
+    detect_encoding: true
+branches:
+    only:
+        - master
+notifications:
+    email:
+        on_failure: always
