@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://ursulawatercolor.com/"
+baseurl = "https://www.ursulawatercolor.com/"
 languageCode = "en-us"
 title = "Ursula's Water Color"
 theme = "hugo-agency-theme-modified"
