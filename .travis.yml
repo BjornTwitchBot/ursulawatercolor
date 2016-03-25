@@ -10,7 +10,7 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY # Declared in travis build settings
     secret_access_key: $AWS_SECRET_KEY # Declared in travis build settings
     bucket: www.ursulawatercolor.com
-    cache_control: "max-age=21600"
+    cache_control: "max-age=604800"
     skip_cleanup: true
     region: "us-east-1"
     local_dir: public
