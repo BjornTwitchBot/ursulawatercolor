@@ -2,7 +2,7 @@
 baseurl = "http://ursulawatercolor.com/"
 languageCode = "en-us"
 title = "Ursula's Water Color"
-theme = "hugo-agency-theme"
+theme = "hugo-agency-theme-modified"
 googleAnalytics = "UA-75595513-1"
 
 [params]
@@ -70,7 +70,7 @@ googleAnalytics = "UA-75595513-1"
 	[params.about]
         enable = true
 		title = "About the Artist"
-		subtitle = "Ursula Stange enjoys producing vibrant works and experimenting with different styles within a medium."
+		subtitle = "Ursula Stange enjoys producing vibrant and emotional pieces, primarily in the medium of water color."
 		endpoint = "What great things may the future hold?"
 
 		# The events will be listed from the top to the bottom.
