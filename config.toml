@@ -35,7 +35,7 @@ googleAnalytics = "UA-75595513-1"
 
 	# Navigation
 	[params.navigation]
-		brand = "Ursula"
+		brand = "Top"
 		portfolio = "Portfolio"
 		about = "About"
 		contact = "Contact"
